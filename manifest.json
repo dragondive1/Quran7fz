@@ -1,0 +1,22 @@
+{
+  "name": "مصحف الحفظ النسخة الذهبية بدون انترنت",
+  "short_name": "مصحف الحفظ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f9f7f2",
+  "theme_color": "#2c5e50",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png", // 👈 هنا الفاصلة التي كانت ناقصة
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png", // 👈 وهنا أيضاً
+      "purpose": "any maskable"
+    }
+  ]
+}
